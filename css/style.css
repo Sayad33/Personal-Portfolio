@@ -630,11 +630,12 @@ html.js body.loaded .line:nth-child(3) .line-in { transition-delay: 0.27s; trans
 }
 .contact-mail {
   display: inline-block;
-  font-size: clamp(1.8rem, 5.5vw, 5rem);
+  font-size: clamp(1.4rem, 4.2vw, 3.5rem);
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: -0.035em;
-  line-height: 1;
+  line-height: 1.05;
+  word-break: break-word;
   text-decoration: none;
   margin-bottom: clamp(36px, 7vh, 72px);
   position: relative;
@@ -712,7 +713,7 @@ html.js .reveal.visible { opacity: 1; transform: translateY(0); }
 @media (max-width: 560px) {
   .hero-stats { flex-direction: column; gap: 8px; }
   .hero-scroll { display: none; }
-  .contact-mail { font-size: clamp(1.5rem, 9.5vw, 3rem); }
+  .contact-mail { font-size: clamp(1.15rem, 6.4vw, 2rem); }
 }
 
 /* ---------- reduced motion ---------- */
